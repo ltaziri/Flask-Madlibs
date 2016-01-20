@@ -6,7 +6,7 @@
 <body>
     Hi {{ person }}! I think you're {{ compliment }}!<br>
     Do you want to play a game?
-    <form action="/game">
+    <form action="/game" method="POST">
         <input type="radio" name="game" value="yes">Yes
         <input type="radio" name="game" value="no">No
         <input type="submit">
