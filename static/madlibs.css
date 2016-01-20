@@ -1,0 +1,12 @@
+form {
+    width: 400px;
+    border: 2px solid black;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
